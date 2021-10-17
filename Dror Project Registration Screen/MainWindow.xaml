@@ -1,0 +1,27 @@
+﻿<Window x:Class="Dror_Project_Registration_Screen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dror_Project_Registration_Screen"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+	<StackPanel Background="Orange">
+        <TextBlock Text="welcome to computer garden!" Width="258" />
+        <TextBlock Text="please enter your name:" Width="258" Background="Red" />
+        <TextBox x:Name="nameUser" Text="my name is..." Width="258" Background="Red"/>
+        <TextBlock Text="please enter your famliy name:" Width="258" />
+        <TextBox Text="my famliy name is..." Width="258" Background="Red" />
+        <TextBlock Text="please enter your email:" Width="258" />
+        <TextBox Text="temp@gmail.com" Width="258" Background="Red"/>
+		<TextBlock Text="please enter a password:" Width="258" />
+        <PasswordBox Background="red" Width="258"/>
+		<TextBlock Text="please confirm your password:" Width="258" />
+        <PasswordBox Width="258" Background="Red"/>
+        <Button x:Name="send" Content="send" Click="send_Click" IsCancel="True" Width="258" Background="Yellow"/>
+        
+
+    </StackPanel>
+
+
+</Window>
