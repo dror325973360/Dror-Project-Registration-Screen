@@ -14,7 +14,7 @@
         <TextBox Text="my famliy name is..." Width="258" Background="Red" />
         <TextBlock Text="please enter your email:" Width="258" />
         <TextBox Text="temp@gmail.com" Width="258" Background="Red"/>
-		<TextBlock Text="please enter a password:" Width="257" />
+		<TextBlock Text="please enter a password:" Width="258" />
         <PasswordBox Background="red" Width="258"/>
 		<TextBlock Text="please confirm your password:" Width="258" />
         <PasswordBox Width="258" Background="Red"/>
